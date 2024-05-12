@@ -1,0 +1,188 @@
+:root{
+  --primary-font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Contact Secion Start */
+  .d2c_contact{
+    padding: 272px 0px;
+    background: url('../images/contact/contact_bg.png'), linear-gradient(90deg, rgba(23,24,25,0.9669117647058824) 100%, rgba(23,24,25,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    /* Contact Secion Form Start */
+  .d2c_contact .form-control{
+    padding: 24px 0px 24px 24px;
+    border-radius: 5px;
+    background: rgba(7, 71, 96, 0.10);
+    color: #FAFAFA;
+    font-family: var(--primary-font-family);
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+  .d2c_contact .form-control:invalid{
+    border: 1px solid transparent;
+  }
+  .d2c_contact .form-control:invalid:focus{
+    box-shadow: none;
+    border-color:  #1f1833;
+  }
+  .d2c_contact .form-control:valid{
+    border: 1px solid transparent;
+  }
+  .d2c_contact .form-control:valid:focus{
+    border-color:  #18323b;
+    box-shadow: none;
+  }
+  .d2c_contact .form-control::placeholder{
+    color: #FAFAFA;
+    text-transform: uppercase;
+  }
+    /* Contact Secion Button Start */
+  .d2c_contact .d2c_btn{
+    padding: 13px 69px;
+    border-radius: 5px;
+    border: 1px solid #323e42;
+    background: rgba(7, 71, 96, 0.10);
+    color: #FFF;
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .d2c_contact .d2c_btn:hover{
+    transition: all .4s ease;
+    background-color: #415257;
+  }
+    /* Contact Secion End */
+  
+    /* news-letter Section Start */
+  .d2c_newsletter{
+    padding: 98px 0px 81px 0px;
+    background: linear-gradient(90deg, rgba(91, 119, 130, 0.914) 100%, rgba(7,71,96,0.9332983193277311) 100%), url('../images/newsletter/newsletter_bg.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  } 
+    /* news-letter Section Title Start */
+  .d2c_newsletter .d2c_newsletter_title{
+    color: #FFF;
+    font-family: var(--primary-font-family);
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 38px;
+  }
+    /* news-letter Section description Start */
+  .d2c_newsletter .d2c_newsletter_description{
+    color: #F4F4F4;
+    font-family: var(--primary-font-family);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 39px;
+  }
+  .d2c_newsletter .form-control{
+    padding: 17px 0px 17px 25px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background: rgba(155, 205, 225, 0.10);
+    color: #FFF;
+  }
+  .d2c_newsletter .form-control:focus{
+    box-shadow: none;
+    border-color: #38464b;
+  }
+  .d2c_newsletter .form-control::placeholder{
+    color: #FFF;
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    font-weight: 400;
+  }
+    /* news-letter Section button Start */
+  .d2c_newsletter .btn{
+    padding: 13px 192px 11px;
+    border-radius: 5px;
+    border: 1px solid #313a3d;
+    background: rgba(7, 71, 96, 0.10);
+    color: #FFF;
+    font-family: var(--primary-font-family);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .d2c_newsletter .btn:active{
+    border-color: #364246;
+    color: #ffff;
+  }
+  .d2c_newsletter .btn:hover{
+    background:  #394144;
+  }
+    /* news-letter Section End */
+  
+    /* Footer Section Start */
+  .d2c_footer{
+    padding: 18px 0px;
+    background: #454e52;
+  } 
+  .d2c_footer p{
+    margin-bottom: 0px;
+    color: #F6F6F6;
+    font-family: var(--primary-font-family);
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .d2c_footer p a{
+    color: #F6F6F6;
+    font-family: var(--primary-font-family);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+  } 
+  .d2c_footer .d2c_btn{
+    color: #F6F6F6;
+    font-family: var(--primary-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    background: none;
+  }
+  .d2c_footer .dropdown-menu .dropdown-item{
+    color: #F6F6F6;
+    background: #233339;
+  }
+  .d2c_footer .dropdown-menu.show{
+    padding: 0px;
+    border: none;
+  }
+  .d2c_footer .d2c_condition a{
+    color: #F6F6F6;
+    font-family: var(--primary-font-family);
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  .d2c_footer .d2c_icon i{
+    padding: 15px;
+   
+    color: #ffff;
+    border-radius: 50%;
+    background: #2b3538;
+  }
+    /* Footer Section End */
+  
