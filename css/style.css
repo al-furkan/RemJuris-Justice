@@ -2,7 +2,9 @@
   --primary-font-family: 'Poppins', sans-serif;
 }
 
-
+a{
+  text-decoration: none;
+}
 
 
 
@@ -101,7 +103,7 @@
     padding: 17px 0px 17px 25px;
     border-radius: 5px;
     border: 1px solid transparent;
-    background: rgba(155, 205, 225, 0.10);
+    background: rgba(16, 119, 160, 0.071);
     color: #020202;
   }
   .d2c_newsletter .form-control:focus{
