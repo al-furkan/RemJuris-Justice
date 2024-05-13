@@ -19,7 +19,7 @@
 
   /* Contact Secion Start */
   .d2c_contact{
-    padding: 272px 0px;
+    padding: 60px 0px;
     background: url('../images/contact/contact_bg.png'), linear-gradient(90deg, rgba(208, 218, 228, 0.967) 100%, rgb(209, 209, 210) 100%);
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@
     border-radius: 5px;
     border: 1px solid #323e42;
     background: rgba(7, 71, 96, 0.10);
-    color: #FFF;
+    color: #000000;
     font-family: var(--primary-font-family);
     font-size: 16px;
     font-weight: 700;
@@ -102,14 +102,14 @@
     border-radius: 5px;
     border: 1px solid transparent;
     background: rgba(155, 205, 225, 0.10);
-    color: #FFF;
+    color: #020202;
   }
   .d2c_newsletter .form-control:focus{
     box-shadow: none;
     border-color: #38464b;
   }
   .d2c_newsletter .form-control::placeholder{
-    color: #FFF;
+    color: #000000;
     font-family: var(--primary-font-family);
     font-size: 16px;
     font-weight: 400;
@@ -120,7 +120,7 @@
     border-radius: 5px;
     border: 1px solid #313a3d;
     background: rgba(7, 71, 96, 0.10);
-    color: #FFF;
+    color: #000000;
     font-family: var(--primary-font-family);
     font-size: 16px;
     font-weight: 700;
@@ -178,7 +178,7 @@
     text-decoration: none;
   }
   .d2c_footer .d2c_icon i{
-    padding: 15px;
+    padding: 25px;
    
     color: #ffff;
     border-radius: 50%;
