@@ -23,12 +23,19 @@
     <!-- External CSS link -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
+<style>
+    .bg-image {
+      background-image: url(./img/aboutbg.jpg);
+      background-size: cover;
+      background-position: center;
+      padding: 50px;
+    }
+  </style>
 <body>
          <!-- Navigation Bar -->
-         <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./defalt/abrar vai.jpg" alt="Logo" width="100"></a>
+         <nav style="padding-bottom: 1%;" class="navbar navbar-expand-lg navbar-light bg-white">
+            <div style="margin-top: 1%;" class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./defalt/abrar vai.jpg" alt="Logo" width="130"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,8 +45,16 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Firm</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              About Firm
+                            </a>
+                            <div style="background-color: rgba(240, 248, 255, 0.418);" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="./aboutus.html">About Us</a>
+                              <a class="dropdown-item" href="#">Vision Statement</a>
+                              <a class="dropdown-item" href="#">Mission Statement</a>
+                              <a class="dropdown-item" href="#">Why Us?</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Practice Areas</a>
@@ -57,7 +72,47 @@
                 </div>
             </div>
         </nav>
-    <!-- Contact Secion Start -->
+        
+        <!-- Home page Body Title -->
+        <div class="col-md-12 bg-image"">
+            <div class="container mt-5" style="background-color: #ccedf0c5; padding: 20px; margin-bottom: 2%;border-radius: 10px;border-style: dotted;text-align: center;">
+                <section>
+                  <h2 class="mb-4">Our Mission</h2>
+                  <p>At RemJuris & Justice, we view the practice of law as more than a profession—it is a calling to uphold the pillars of justice, advocate for the rights of our clients, and contribute to the betterment of society. Our journey is guided by a vision to be the preeminent force in legal advocacy, setting new benchmarks for professionalism, innovation, and social responsibility.</p>
+                </section>
+            
+                <section>
+                  <h2 class="mb-4">Our Commitment</h2>
+                  <p>As we introduce RemJuris & Justice, envision a legal sanctuary where passion converges with expertise, where clients are not just cases but partners in their pursuit of legal success. Our commitment goes beyond providing legal services; it extends to crafting tailored solutions that align with the unique needs and aspirations of our clients.</p>
+                </section>
+            
+                <section>
+                  <h2 class="mb-4">Legal Expertise</h2>
+                  <p>In this ever-evolving legal landscape, RemJuris & Justice stands at the forefront, embracing cutting-edge technologies, staying abreast of legislative developments, and adopting innovative strategies to navigate complexities. Our dedication to legal innovation ensures that our clients receive not only sound legal counsel but also strategic guidance that anticipates and addresses the challenges of tomorrow.</p>
+                </section>
+            
+                <section>
+                  <h2 class="mb-4">Specializations</h2>
+                  <p>With a multifaceted approach, RemJuris & Justice specializes in a diverse range of legal areas, including Constitutional Matters, Civil Law, Criminal Law, Corporate and Commercial Law, Real Estate and Property Law, Banking & Financial Services, Tax and VAT, Litigation and Dispute Resolution, Intellectual Property Rights, Family Law, Employment and Labor Law, and Immigration Law and many more. Our team of seasoned legal professionals, each an expert in their field, is ready to provide comprehensive, strategic, and personalized legal solutions.</p>
+                </section>
+            
+                <section>
+                  <h2 class="mb-4">Social Justice</h2>
+                  <p>Beyond our legal expertise, RemJuris & Justice is dedicated to social Justice. We actively engage in pro bono lawyering, community outreach, and initiatives that contribute to the welfare of the communities we serve.</p>
+                </section>
+            
+                <section>
+                  <h2 class="mb-4">Join Us</h2>
+                  <p>Join us on this transformative journey where justice, excellence, and client satisfaction converge. At RemJuris & Justice, we don't just practice law; we champion it with passion, purpose, and unwavering dedication. Let us be your trusted partners on the path to legal success.</p>
+                </section>
+            </div>
+        </div>
+     
+
+<div style="padding: 0.1% ; background-color:  rgba(194, 203, 211, 0.692);text-align: center;">
+    <h2 s>RemJuris & Justice</h2>
+    <p style="font-family:cursive;">A Law Firm with Complete Remedy</p>
+</div>
     <div class="d2c_contact" id="contact">
       <div class="container">
           <div class="row align-items-center">
@@ -101,7 +156,7 @@
   <section class="d2c_newsletter">
       <div class="container">
           <div class="d2c_newsletter_content text-center">
-              <h2 class="d2c_newsletter_title">High Court Chamber: </h2>
+              <h2 class="d2c_newsletter_title">High Court Chamber</h2>
               <p class="d2c_newsletter_description">
                 Address: Suite No- 11002, 10th Floor, Suhrawardy Bhaban, Supreme Court Bar Association Bhaban, Shahbag, Dhaka, Bangladesh.
               </p>
@@ -119,37 +174,119 @@
   <!-- News-letter Section End -->
 
   <!-- Footer Section Start  -->
-  <div class="d2c_footer">
-      <div class="container">
-          <div class="row justify-content-center align-items-center">
-              <div class="col-sm-6 col-md-4 col-lg-3 text-center">
-                  <p>
-                      ©2024<span class="ms-1"><a href="https://fonclick.com/furkan">FonClick</a></span>
-                  </p>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mt-2 mt-md-0 text-center">
-                  <div class="dropup-center dropup">
-                      <button class="d2c_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Website: remjuris.com
-                      </button>
-                  </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-2 mt-2 mt-md-0  text-center">
-                  <div class="d2c_condition">
-                      <a href="#">Phone:   <span>+88 01794962980</span> <span style="margin-left: 22%;">+88 01998101655</span></a>
-                  </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-3 mt-2 mt-lg-0 text-center">
-                  <div class="d2c_icon">
-                      <span><a href="#"><i class="fas fa-phone-alt"></i></a></span>
-                      <span><a href="#"><i class="fas fa-envelope"></i></a></span>
-                      <span><a href="facebook.com/RemJurisBD"><i class="fab fa-facebook-f"></i></a></span>
-                      <span><a href="#"><i class="fab fa-twitter"></i></a></span>
-                  </div>
-              </div>
-          </div>
+  <!-- <div class="d2c_footer"> -->
+   
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
       </div>
-  </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/RemJurisBD" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="+8801794962980" class="me-4 text-reset">
+            <i class="fa fa-phone"></i>
+          </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="fw-bold mb-4">
+              REMJURIS-JUSTICE
+            </h6>
+            <p>
+                Join us on this transformative journey where justice, excellence, and client satisfaction converge. At RemJuris & Justice, we don't just practice law; we champion it with passion, purpose, and unwavering dedication. Let us be your trusted partners on the path to legal success.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Services
+            </h6>
+            <p>
+                Constitutional Matters, Banking & Financial Services, Civil Litigation, Criminal Litigation, Corporate and Commercial Law, Tax & VAT, Intellectual Property Law, Corporate Real Estate and Property, Family Law, Cyber Law, Labour Law, Contractual Disputes Litigation, Alternative Dispute Resolution, Immigration Law, and Competition Law
+              <a style="color: blue;" href="./practiesArea.html" class="text-reset"> <strong>click here for details</strong></a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              About REMJURIS-JUSTICE
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">About Us</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Mission</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vision</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Why Us?</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>Plot 28/A, Floor-3, Segunbagicha, Dhaka, Bangladesh.</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@remjuris.com
+            </p>
+            <p>
+                <i class="fas fa-envelope me-3"></i>
+                remjurisbd@gmail.com
+              </p>
+            <p><i class="fas fa-phone me-3"></i>+88 01794962980</p>
+            <p><i class="fas fa-phone me-3"></i>+88 01998101655</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://fonclick.com/furkan/">FonClick</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
   <!-- Footer Section End  -->
 
 
