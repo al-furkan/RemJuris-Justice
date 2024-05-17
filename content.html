@@ -1,181 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REMJURIS & JUSTICE</title>
+  <link rel="icon" type="image/x-icon" href="./assets/images/favicon/favicon.png">
 
-<div class="aboutus">
-  <h2>About Us?</h2>
+    <!-- Google Fonts CDN Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<p>Welcome to <span>"RemJuris & Justice"</span> a law firm dedicated to providing comprehensive legal solutions. It focuses not just on winning cases, but on delivering real, lasting outcomes. With deep legal expertise and a commitment to justice, the firm offers full support, tackling both immediate challenges and ensuring long-term protection. It stands out by deeply understanding and meeting the needs of its clients, making it a trusted ally in their pursuit of justice.</p>
+    <!-- Font-Awesome CDN Start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-<p><span>"RemJuris & Justice"</span> a distinguished legal entity committed to reshaping the narrative of justice and legal excellence in Bangladesh. With a foundation built on unwavering principles of integrity, innovation, and client-centered values, we embark on a journey to redefine the legal landscape.</p>
-<p>
-At <span>"RemJuris & Justice"</span>, we view the practice of law as more than a profession—it is a calling to uphold the pillars of justice, advocate for the rights of our clients, and contribute to the betterment of society. Our journey is guided by a vision to be the preeminent force in legal advocacy, setting new benchmarks for professionalism, innovation, and social responsibility.</p>
-<p>
-As we introduce RemJuris & Justice, envision a legal sanctuary where passion converges with expertise, where clients are not just cases but partners in their pursuit of legal success. Our commitment goes beyond providing legal services; it extends to crafting tailored solutions that align with the unique needs and aspirations of our clients.</p>
-<p>
-In this ever-evolving legal landscape,<span>"RemJuris & Justice"</span> stands at the forefront, embracing cutting-edge technologies, staying abreast of legislative developments, and adopting innovative strategies to navigate complexities. Our dedication to legal innovation ensures that our clients receive not only sound legal counsel but also strategic guidance that anticipates and addresses the challenges of tomorrow.</p>
-<p>
-With a multifaceted approach, <span>"RemJuris & Justice"</span> specializes in a diverse range of legal areas, including Constitutional Matters, Civil Law, Criminal Law, Corporate and Commercial Law, Real Estate and Property Law, Banking & Financial Services, Tax and VAT, Litigation and Dispute Resolution, Intellectual Property Rights, Family Law, Employment and Labor Law, and Immigration Law and many more. Our team of seasoned legal professionals, each an expert in their field, is ready to provide comprehensive, strategic, and personalized legal solutions.</p>
-<p>
-Beyond our legal expertise, <span>"RemJuris & Justice"</span> is dedicated to social Justice. We actively engage in pro bono lawyering, community outreach, and initiatives that contribute to the welfare of the communities we serve.
-Join us on this transformative journey where justice, excellence, and client satisfaction converge. At RemJuris & Justice, we don't just practice law; we champion it with passion, purpose, and unwavering dedication. Let us be your trusted partners on the path to legal success.
-RemJuris & Justice - A Law Firm with Complete Remedy.</p>
-</div>
+    <!-- Bootstrap CSS CDN Start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Fancybox CDN Start -->
+    <link href=" https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css " rel="stylesheet">
 
-<div class="vission">
+    <!-- External CSS link -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+         <!-- Navigation Bar -->
+         <nav style="padding-bottom: 1%;" class="navbar navbar-expand-lg navbar-light bg-white">
+          <div style="margin-top: 1%;" class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./defalt/abrar vai.jpg" alt="Logo" width="130"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                      <li class="nav-item">
+                          <a class="nav-link" href="./index.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                              data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              About Firm
+                          </a>
+                          <div style="background-color: rgba(240, 248, 255, 0.847);" class="dropdown-menu"
+                              aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="./aboutus.html">About Us</a>
+                              <a class="dropdown-item" href="./visionstatement.html">Vision Statement</a>
+                              <a class="dropdown-item" href="./missionstatement.html">Mission Statement</a>
+                              <a class="dropdown-item" href="./whyus.html">Why Us?</a>
+                          </div>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Practice Areas
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-columns" aria-labelledby="navbarDropdownMenuLink">
+                          
+                            <div style="display: flex;flex-direction: row;">
+                                    <div  >
+                                        <a class="dropdown-item" href="./constitutionalmatters.html">Constitutional Matters</a>
+                                        <a class="dropdown-item" href="./bankingfinalcialservice.html">Banking & Financial Services</a>
+                                        <a class="dropdown-item" href="./civillitigation.html">Civil Litigation</a>
+                                        <a class="dropdown-item" href="./criminallitigation.html">Criminal Litigation</a>
+                                        <a class="dropdown-item" href="./corporateandcommercial.html">Corporate and Commercial</a>
+                                        <a class="dropdown-item" href="./taxandvat.html">Tax & VAT</a>
+                                    </div>
+                                    <div style=" border-left: 2px solid rgba(164, 177, 164, 0.447);
+                                    height:auto;"></div>
+                                    <div>
+                                        <a class="dropdown-item" href="./intellectualpropertylaw.html">Intellectual Property Law</a>
+                                        <a class="dropdown-item" href="./corporaterealestateandproperty.html">Corporate Real Estate and Property</a>
+                                        <a class="dropdown-item" href="./familylaw.html">Family Law</a>
+                                        <a class="dropdown-item" href="./cyberlaw.html">Cyber Law</a>
+                                        <a class="dropdown-item" href="./labourlaw.html">Labour Law</a>
+                                        <a class="dropdown-item" href="./contractualdisputeslitigation.html">Contractual Disputes Litigation</a>
+                                    </div>
+                                    <div style=" border-left: 2px solid rgba(164, 177, 164, 0.447);
+                                    height:auto;"></div>
+                                    <div>
+                                        <a class="dropdown-item" href="./alternativedisputesresolution.html">Alternative Dispute Resolution</a>
+                                        <a class="dropdown-item" href="./immigrationlaw.html">Immigration Law</a>
+                                        <a class="dropdown-item" href="./cometitionlaw.html">Competition Law</a>
+                               
+                                    </div>
+                                </div>
+                              
+                          
+                            </div>
+                    </li>
+                    
+                  
   
-
-<h2>Vision Statement</h2>
-
-
-"At <span>"RemJuris & Justice"</span>, our vision is to be the preeminent force in legal advocacy, setting new standards for professionalism, innovation, and social justice in Bangladesh.
-Core Pillars of Our Vision:
-
-<h4>Leadership in Legal Advocacy:</h4> 
-
-<p>We aspire to lead the legal landscape, becoming the go-to firm for clients seeking unparalleled expertise, strategic insight, and unwavering dedication to their legal success. Our commitment to excellence positions us as trailblazers in the pursuit of justice.</p>
-
-<h4>Innovative Legal Practices:</h4>
- <p>Embracing the fast-paced evolution of the legal field, we envision RemJuris & Justice as a hub of innovation. We proactively integrate cutting-edge technologies, stay ahead of legislative changes, and adopt innovative strategies, ensuring our clients receive progressive and future-ready legal solutions.</p>
-
-<h4>Setting New Standards of Professionalism:</h4> 
-<p>
-  Our vision encompasses raising the bar of professionalism within the legal profession. We aim to set new standards for ethical conduct, transparency, and client satisfaction, earning the respect and trust of both clients and peers alike.
-</p>
-	<h4>
-    Social Responsibility and Community Impact
-  </h4>
-   <p>
-    Beyond legal practice, we are committed to making a positive impact on society. RemJuris & Justice envisions actively participating in pro bono lawyering, legal aid, community outreach, and initiatives that contribute to the welfare of the communities we serve, aligning our success with the well-being of the broader community.
-   </p>
-
-
-   <p>Join us in realizing this vision as we empower justice and guide excellence, transcending conventional boundaries to create a legal legacy that positively impacts our clients and society as a whole."
-  </p>
-
-
-
-</div>
-
-
-
-  <div class="mission">
-    <h2>Mission Statement:</h2>
-
-
-
-<p>
-  "At <span>"RemJuris & Justice"</span>, our mission is to deliver exceptional legal services with a client-centric approach, fostering professional innovation, social responsibility, and a commitment to excellence in every aspect of our practice. Our core missions are the guiding principles that shape our daily endeavors and define our role in the legal landscape of Bangladesh.
-</p>
-
-<h4>
-  Key Missions:
-</h4>
-	<p>
-    Delivering Exceptional Legal Services: Our foremost mission is to provide our clients with comprehensive and exceptional legal solutions. We are dedicated to achieving optimal outcomes by combining legal expertise, strategic insight, and a proactive approach to problem-solving.
-  </p>
-	<h4>
-    Client-Centric Approach:
-  </h4> 
+                      <li class="nav-item">
+                          <a class="nav-link" href="./ourTeam.html">Our Team</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./legalAid.html">Legal Aid</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="./blog.html">Blog</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      
+        
+    <!-- Contact Secion Start -->
+<!-- Home page Body Title -->
+<div style="padding: 0.1% ; background-color:  rgba(194, 203, 211, 0.692);text-align: center;">
+  <div class="aboutus">
+    <h2>About Us?</h2>
+  
+  <p>Welcome to <span>"RemJuris & Justice"</span> a law firm dedicated to providing comprehensive legal solutions. It focuses not just on winning cases, but on delivering real, lasting outcomes. With deep legal expertise and a commitment to justice, the firm offers full support, tackling both immediate challenges and ensuring long-term protection. It stands out by deeply understanding and meeting the needs of its clients, making it a trusted ally in their pursuit of justice.</p>
+  
+  <p><span>"RemJuris & Justice"</span> a distinguished legal entity committed to reshaping the narrative of justice and legal excellence in Bangladesh. With a foundation built on unwavering principles of integrity, innovation, and client-centered values, we embark on a journey to redefine the legal landscape.</p>
   <p>
-    RemJuris & Justice is driven by a commitment to placing our clients at the heart of everything we do. We aim to build lasting relationships based on trust, understanding our clients' goals, and tailoring our services to meet their unique needs.
-  </p>
-
-  <h4>
-    Social Justice:
-  </h4> 
+  At <span>"RemJuris & Justice"</span>, we view the practice of law as more than a profession—it is a calling to uphold the pillars of justice, advocate for the rights of our clients, and contribute to the betterment of society. Our journey is guided by a vision to be the preeminent force in legal advocacy, setting new benchmarks for professionalism, innovation, and social responsibility.</p>
   <p>
-    Beyond legal practice, we recognize our responsibility to contribute positively to the community. Our mission includes active participation in pro bono lawyering, community outreach, and initiatives that promote social justice and well-being.
-  </p>
-	<h4>
-    Expertise Across Legal Areas:
-  </h4>
-   <p>
-    RemJuris & Justice is on a mission to excel in diverse legal areas. Our team of seasoned professionals specializes in Constitutional Matters, Civil Law, Criminal Law, Corporate and Commercial Law, Real Estate and Property Law, Banking & Financial Services, Tax and VAT, Litigation and Dispute Resolution, Intellectual Property Rights, Family Law, Employment and Labor Law, and Immigration Law and many more.
-   </p>
-<h4>
-  Fostering a Positive Work Environment:
-</h4>
-
-<p>
-  We are committed to creating a work environment that fosters collaboration, innovation, and professional growth. Our mission includes investing in the well-being and development of our team, recognizing that a motivated and skilled workforce is essential for delivering quality legal services.
-</p>
-	<h4>
-    Setting Ethical Standards:
-  </h4> 
+  As we introduce RemJuris & Justice, envision a legal sanctuary where passion converges with expertise, where clients are not just cases but partners in their pursuit of legal success. Our commitment goes beyond providing legal services; it extends to crafting tailored solutions that align with the unique needs and aspirations of our clients.</p>
   <p>
-
-    Upholding the highest ethical standards is integral to our mission. RemJuris & Justice is dedicated to setting new benchmarks for professionalism, transparency, and integrity, earning the trust and respect of our clients, peers, and the legal community.
-
-  </p>
-
+  In this ever-evolving legal landscape,<span>"RemJuris & Justice"</span> stands at the forefront, embracing cutting-edge technologies, staying abreast of legislative developments, and adopting innovative strategies to navigate complexities. Our dedication to legal innovation ensures that our clients receive not only sound legal counsel but also strategic guidance that anticipates and addresses the challenges of tomorrow.</p>
+  <p>
+  With a multifaceted approach, <span>"RemJuris & Justice"</span> specializes in a diverse range of legal areas, including Constitutional Matters, Civil Law, Criminal Law, Corporate and Commercial Law, Real Estate and Property Law, Banking & Financial Services, Tax and VAT, Litigation and Dispute Resolution, Intellectual Property Rights, Family Law, Employment and Labor Law, and Immigration Law and many more. Our team of seasoned legal professionals, each an expert in their field, is ready to provide comprehensive, strategic, and personalized legal solutions.</p>
+  <p>
+  Beyond our legal expertise, <span>"RemJuris & Justice"</span> is dedicated to social Justice. We actively engage in pro bono lawyering, community outreach, and initiatives that contribute to the welfare of the communities we serve.
+  Join us on this transformative journey where justice, excellence, and client satisfaction converge. At RemJuris & Justice, we don't just practice law; we champion it with passion, purpose, and unwavering dedication. Let us be your trusted partners on the path to legal success.
+  RemJuris & Justice - A Law Firm with Complete Remedy.</p>
   </div>
-
-
-
-
-
-
-<div class="whyus">
   
-<h2> Why Us?</h2>
-
-
-
-<p>
-  Choosing the right legal partner is crucial, and at <span>RemJuris & Justice</span> we stand out as the optimal choice for a multitude of reasons:
-</p>
-<h4>
-  Expertise Across Diverse Legal Fields:
-</h4>
-<p>
-  With a team of seasoned legal professionals, each an expert in their respective fields, RemJuris & Justice offers comprehensive expertise across a broad spectrum of legal areas, Constitutional Matters, Civil Law, Criminal Law, Corporate and Commercial Law, Real Estate and Property Law, Banking & Financial Services, Tax and VAT, Litigation and Dispute Resolution, Intellectual Property Rights, Family Law, Employment and Labor Law, and Immigration Law and many more.
-</p>
-<h4>
-  Client-Oriented Services:
-</h4>
-<p>
-  We prioritize our clients' needs, goals, and concerns. Our client-oriented approach ensures that every case receives personalized attention, and we work collaboratively with our clients to tailor legal strategies that align with their unique circumstances.
-</p>
-<h4>
-  Innovative and Forward-Thinking:
-</h4>
-<p>
-  RemJuris & Justice embraces innovation in the legal field. We proactively incorporate cutting-edge technologies, stay abreast of legal advancements, and adopt innovative strategies. This forward-thinking approach ensures that our clients receive the most relevant and effective legal solutions.
-
-</p>
-
-<h4>
-  Proven Track Record of Success:
-</h4>
-<p>
-  Our firm boasts a history of successful outcomes and satisfied clients. Whether navigating complex legal disputes, facilitating business transactions, or providing strategic legal advice, RemJuris & Justice has consistently delivered results that exceed expectations.
-</p>
-<h4>Transparent Communication:</h4>
-<p>
-  Open and transparent communication is a cornerstone of our service. We keep our clients informed at every stage of their legal journey, providing clarity on processes, timelines, and potential outcomes. This commitment to transparent communication fosters trust and confidence.
-</p>
-<h4>
-  Ethical Standards and Integrity:
-</h4>
-<p>
-  At RemJuris & Justice, we uphold the highest ethical standards. Our commitment to integrity and ethical conduct is unwavering, ensuring that our clients receive legal representation that is not only effective but also morally sound.
-
-
-</p>
-
-<h4>
-  Social Responsibility:
-
-</h4>
-<p>Beyond legal practice, we are dedicated to giving back to the community. RemJuris & Justice actively engages in pro bono work, community outreach, and initiatives that contribute to the welfare of society. By choosing us, clients become part of a legal practice that values social responsibility.</p>
-
-
-<h4>
-  Adaptability and Continuous Learning:
-
-</h4>
-<p>
-  In a rapidly changing legal landscape, adaptability is key. RemJuris & Justice fosters a culture of continuous learning, ensuring that our team remains at the forefront of legal developments and is equipped to address emerging challenges.
-</p>
-
-
+  
+  <div class="vission">
+    
+  
+  <h2>Vision Statement</h2>
+  
+  
+  "At <span>"RemJuris & Justice"</span>, our vision is to be the preeminent force in legal advocacy, setting new standards for professionalism, innovation, and social justice in Bangladesh.
+  Core Pillars of Our Vision:
+  
+  <h4>Leadership in Legal Advocacy:</h4> 
+  
+  <p>We aspire to lead the legal landscape, becoming the go-to firm for clients seeking unparalleled expertise, strategic insight, and unwavering dedication to their legal success. Our commitment to excellence positions us as trailblazers in the pursuit of justice.</p>
+  
+  <h4>Innovative Legal Practices:</h4>
+   <p>Embracing the fast-paced evolution of the legal field, we envision RemJuris & Justice as a hub of innovation. We proactively integrate cutting-edge technologies, stay ahead of legislative changes, and adopt innovative strategies, ensuring our clients receive progressive and future-ready legal solutions.</p>
+  
+  <h4>Setting New Standards of Professionalism:</h4> 
+  <p>
+    Our vision encompasses raising the bar of professionalism within the legal profession. We aim to set new standards for ethical conduct, transparency, and client satisfaction, earning the respect and trust of both clients and peers alike.
+  </p>
+    <h4>
+      Social Responsibility and Community Impact
+    </h4>
+     <p>
+      Beyond legal practice, we are committed to making a positive impact on society. RemJuris & Justice envisions actively participating in pro bono lawyering, legal aid, community outreach, and initiatives that contribute to the welfare of the communities we serve, aligning our success with the well-being of the broader community.
+     </p>
+  
+  
+     <p>Join us in realizing this vision as we empower justice and guide excellence, transcending conventional boundaries to create a legal legacy that positively impacts our clients and society as a whole."
+    </p>
+  
+  
+  
+  </div>
+  
+  
+  
+    <div class="mission">
+      <h2>Mission Statement:</h2>
+  
+  
+  
+  <p>
+    "At <span>"RemJuris & Justice"</span>, our mission is to deliver exceptional legal services with a client-centric approach, fostering professional innovation, social responsibility, and a commitment to excellence in every aspect of our practice. Our core missions are the guiding principles that shape our daily endeavors and define our role in the legal landscape of Bangladesh.
+  </p>
+  
+  <h4>
+    Key Missions:
+  </h4>
+    <p>
+      Delivering Exceptional Legal Services: Our foremost mission is to provide our clients with comprehensive and exceptional legal solutions. We are dedicated to achieving optimal outcomes by combining legal expertise, strategic insight, and a proactive approach to problem-solving.
+    </p>
+    <h4>
+      Client-Centric Approach:
+    </h4> 
+    <p>
+      RemJuris & Justice is driven by a commitment to placing our clients at the heart of everything we do. We aim to build lasting relationships based on trust, understanding our clients' goals, and tailoring our services to meet their unique needs.
+    </p>
+  
+    <h4>
+      Social Justice:
+    </h4> 
+    <p>
+      Beyond legal practice, we recognize our responsibility to contribute positively to the community. Our mission includes active participation in pro bono lawyering, community outreach, and initiatives that promote social justice and well-being.
+    </p>
+    <h4>
+      Expertise Across Legal Areas:
+    </h4>
+     <p>
+      RemJuris & Justice is on a mission to excel in diverse legal areas. Our team of seasoned professionals specializes in Constitutional Matters, Civil Law, Criminal Law, Corporate and Commercial Law, Real Estate and Property Law, Banking & Financial Services, Tax and VAT, Litigation and Dispute Resolution, Intellectual Property Rights, Family Law, Employment and Labor Law, and Immigration Law and many more.
+     </p>
+  <h4>
+    Fostering a Positive Work Environment:
+  </h4>
+  
+  <p>
+    We are committed to creating a work environment that fosters collaboration, innovation, and professional growth. Our mission includes investing in the well-being and development of our team, recognizing that a motivated and skilled workforce is essential for delivering quality legal services.
+  </p>
+    <h4>
+      Setting Ethical Standards:
+    </h4> 
+    <p>
+  
+      Upholding the highest ethical standards is integral to our mission. RemJuris & Justice is dedicated to setting new benchmarks for professionalism, transparency, and integrity, earning the trust and respect of our clients, peers, and the legal community.
+  
+    </p>
+  
+    </div>
+  
+  
+  
+  
+  
+  
+  <div class="whyus">
+    
+  <h2> Why Us?</h2>
+  
+  
+  
+  <p>
+    Choosing the right legal partner is crucial, and at <span>RemJuris & Justice</span> we stand out as the optimal choice for a multitude of reasons:
+  </p>
+  <h4>
+    Expertise Across Diverse Legal Fields:
+  </h4>
+  <p>
+    With a team of seasoned legal professionals, each an expert in their respective fields, RemJuris & Justice offers comprehensive expertise across a broad spectrum of legal areas, Constitutional Matters, Civil Law, Criminal Law, Corporate and Commercial Law, Real Estate and Property Law, Banking & Financial Services, Tax and VAT, Litigation and Dispute Resolution, Intellectual Property Rights, Family Law, Employment and Labor Law, and Immigration Law and many more.
+  </p>
+  <h4>
+    Client-Oriented Services:
+  </h4>
+  <p>
+    We prioritize our clients' needs, goals, and concerns. Our client-oriented approach ensures that every case receives personalized attention, and we work collaboratively with our clients to tailor legal strategies that align with their unique circumstances.
+  </p>
+  <h4>
+    Innovative and Forward-Thinking:
+  </h4>
+  <p>
+    RemJuris & Justice embraces innovation in the legal field. We proactively incorporate cutting-edge technologies, stay abreast of legal advancements, and adopt innovative strategies. This forward-thinking approach ensures that our clients receive the most relevant and effective legal solutions.
+  
+  </p>
+  
+  <h4>
+    Proven Track Record of Success:
+  </h4>
+  <p>
+    Our firm boasts a history of successful outcomes and satisfied clients. Whether navigating complex legal disputes, facilitating business transactions, or providing strategic legal advice, RemJuris & Justice has consistently delivered results that exceed expectations.
+  </p>
+  <h4>Transparent Communication:</h4>
+  <p>
+    Open and transparent communication is a cornerstone of our service. We keep our clients informed at every stage of their legal journey, providing clarity on processes, timelines, and potential outcomes. This commitment to transparent communication fosters trust and confidence.
+  </p>
+  <h4>
+    Ethical Standards and Integrity:
+  </h4>
+  <p>
+    At RemJuris & Justice, we uphold the highest ethical standards. Our commitment to integrity and ethical conduct is unwavering, ensuring that our clients receive legal representation that is not only effective but also morally sound.
+  
+  
+  </p>
+  
+  <h4>
+    Social Responsibility:
+  
+  </h4>
+  <p>Beyond legal practice, we are dedicated to giving back to the community. RemJuris & Justice actively engages in pro bono work, community outreach, and initiatives that contribute to the welfare of society. By choosing us, clients become part of a legal practice that values social responsibility.</p>
+  
+  
+  <h4>
+    Adaptability and Continuous Learning:
+  
+  </h4>
+  <p>
+    In a rapidly changing legal landscape, adaptability is key. RemJuris & Justice fosters a culture of continuous learning, ensuring that our team remains at the forefront of legal developments and is equipped to address emerging challenges.
+  </p>
+  
+  
+  </div>
 </div>
+    <div class="d2c_contact" id="contact">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6">
+                  <div class="d2c_contact_img text-center">
+                      <img src="./img/contact_map.png" class="img-fluid" alt="Contact Left Image">
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <form class="row needs-validation was-validated" novalidate>
+                      <div class="col-6">
+                          <input type="text" class="form-control" id="validationf-name" placeholder="First name" autocomplete="off" required>
+                      </div>
+                      <div class="col-6">
+                          <input type="text" class="form-control" id="validationl-name" placeholder="last name" autocomplete="off" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="email" class="form-control" id="validationemail_1" placeholder="e-Mail" autocomplete="on" required>
+                      </div>
+                      <div class="col-6 col-lg-3">
+                          <input type="text" class="form-control" id="validationcode" placeholder="Code" autocomplete="off" required>
+                      </div>
+                      <div class="col-9">
+                          <input type="text" class="form-control" id="validationphonenumber" placeholder="PHone" autocomplete="off" required>
+                      </div>
+                      <div class="col-12">
+                          <input type="text" class="form-control" id="validationexample-query" placeholder="Query type" autocomplete="off">
+                      </div>
+                      <div class="col-12">
+                          <textarea class="form-control" id="validationMessage" rows="3" placeholder="enter your Message"></textarea>
+                      </div>
+                  </form>
+                  <button type="submit" class="d2c_btn">submit</button>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Contact Secion End -->
+
+  <!-- News-letter Section Start -->
+  <section class="d2c_newsletter">
+      <div class="container">
+          <div class="d2c_newsletter_content text-center">
+              <h2 class="d2c_newsletter_title">High Court Chamber</h2>
+              <p class="d2c_newsletter_description">
+                Address: Suite No- 11002, 10th Floor, Suhrawardy Bhaban, Supreme Court Bar Association Bhaban, Shahbag, Dhaka, Bangladesh.
+              </p>
+              <div class="row justify-content-center">
+                  <div class="col-lg-5">
+                      <div>
+                          <input type="email" class="form-control mb-3" id="e_mail" placeholder="Enter your mail here" required>
+                          <button type="submit" class="btn">Subscribe Now</button>
+                      </div>  
+                  </div>
+              </div>                
+          </div>
+      </div>
+  </section>
+  <!-- News-letter Section End -->
+
+  <!-- Footer Section Start  -->
+  <!-- <div class="d2c_footer"> -->
+   
+  <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/RemJurisBD" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="+8801794962980" class="me-4 text-reset">
+            <i class="fa fa-phone"></i>
+          </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="fw-bold mb-4">
+              REMJURIS-JUSTICE
+            </h6>
+            <p>
+                Join us on this transformative journey where justice, excellence, and client satisfaction converge. At RemJuris & Justice, we don't just practice law; we champion it with passion, purpose, and unwavering dedication. Let us be your trusted partners on the path to legal success.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Services
+            </h6>
+            <p>
+                Constitutional Matters, Banking & Financial Services, Civil Litigation, Criminal Litigation, Corporate and Commercial Law, Tax & VAT, Intellectual Property Law, Corporate Real Estate and Property, Family Law, Cyber Law, Labour Law, Contractual Disputes Litigation, Alternative Dispute Resolution, Immigration Law, and Competition Law
+              <a style="color: blue;" href="./practiesArea.html" class="text-reset"> <strong>click here for details</strong></a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              About REMJURIS-JUSTICE
+            </h6>
+            <p>
+              <a href="./aboutus.html" class="text-reset">About Us</a>
+            </p>
+            <p>
+              <a href="./mission.html" class="text-reset">Mission</a>
+            </p>
+            <p>
+              <a href="./vission.html" class="text-reset">Vision</a>
+            </p>
+            <p>
+              <a href="./whyus.html" class="text-reset">Why Us?</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>Plot 28/A, Floor-3, Segunbagicha, Dhaka, Bangladesh.</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@remjuris.com
+            </p>
+            <p>
+                <i class="fas fa-envelope me-3"></i>
+                remjurisbd@gmail.com
+              </p>
+            <p><i class="fas fa-phone me-3"></i>+88 01794962980</p>
+            <p><i class="fas fa-phone me-3"></i>+88 01998101655</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://fonclick.com/furkan/">FonClick</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- Footer Section End  -->
+
+
+  <!-- bootstrap Jq CDN Strat -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- bootstrap Jq CDN End -->
+
+  <!-- Fancy-Box jquery Cdn Start -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- Fancy-Box jquery Cdn End -->
+</body>
+</html>
