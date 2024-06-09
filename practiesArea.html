@@ -377,6 +377,51 @@
       }
     }
   }
+  /* Add this inside a <style> tag in your HTML head or in your CSS file */
+/* Add this inside a <style> tag in your HTML head or in your CSS file */
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.postcard {
+  width: 90%;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postcard__img {
+  width: 50%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.postcard__preview-txt {
+  position: relative;
+}
+
+.short-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.read-more {
+  display: block;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
 </style>
 
 <body>
@@ -473,209 +518,94 @@
               </div>
           </div>
       </nav>
-      <section class="light">
-        <div class="container py-2">
-          <div class="h1 text-center text-dark" id="pageHeaderTitle">Our Area of Expertise</div>
       
-          <article class="postcard light blue" id="constitutionalmatters">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://cdn.ittefaqbd.com/contents/cache/images/1100x618x1/uploads/media/2021/11/04/b9de7ec1dd8b3c96ffe7469eb2c0d69a-61834d83a7bde.jpg?jadewits_media_id=1719" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title blue"><a href="#">Constitutional Matters</a></h1>
-              <hr>
-              <div class="postcard__preview-txt">
-                <p>Our firm specializes in providing comprehensive legal support for Constitutional Matters including Writ and Public Interest Litigation (PIL) matters in Bangladesh. In the realm of Writ services, we assist clients in seeking recourse from higher courts, such as the High Court Division of the Supreme Court of Bangladesh, through Writ petitions. These petitions are powerful legal instruments used to protect fundamental rights, challenge government actions, or seek remedies for constitutional violations. Our experienced team navigates the intricacies of Writ procedures, ensuring diligent preparation, persuasive arguments, and effective representation before the judiciary.</p>
-              <p>Additionally, our PIL services are geared towards advocating for the public interest and promoting social justice through litigation. We represent individuals, organizations, and groups seeking to address systemic issues, enforce statutory duties, or challenge governmental policies or actions affecting the public at large. Our PIL practice encompasses a wide range of issues, including environmental protection, human rights, access to justice, and governmental accountability. We leverage our legal expertise and commitment to social justice to advance causes that benefit society as a whole.</p>
-            <p>Whether it involves championing individual rights through Writ petitions or advocating for broader societal concerns through PIL, our firm is dedicated to upholding the principles of justice, fairness, and the rule of law in Bangladesh.</p>  
-            </div>
-            </div>
-          </article>
-          <article class="postcard light red" id="bankingfinalcialservice">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://legalcounselbd.com/wp-content/uploads/2020/12/Banking-Law-1.jpg" alt="Image Title" />	
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title red"><a href="#">Banking & Financial Services</a></h1>
-              <div class="postcard__preview-txt">
-                <p>Our Banking & Financial Services division is well-versed in a wide array of security documentations and financial services to support our clients' diverse needs. This includes creating Deeds of Mortgage and Power of Attorney, drafting Letters of Hypothecation on fixed and floating Assets, and preparing Deeds of Corporate Guarantee. We also specialize in arranging Pari Passu Security Sharing Agreements, Letters of Pledge and Negative Pledge, as well as establishing Deeds of Tripartite and Quadripartite Agreements. Additionally, our services encompass the preparation of Letters of Lien and Deeds of Assignment among others.  In the realm of financing, we offer comprehensive solutions in asset financing, syndicated lending, and bank lending, tailored to meet the specific needs of our clients. Our team is also adept at managing debt restructuring processes, facilitating project finance, and designing structured finance products. Through these services, we ensure our clients have access to the necessary tools and expertise to navigate their financial journeys successfully. Simultaneously, in Litigation and Recovery Matters, where we specialize in representing our clients before courts for recovery-related proceedings. Our legal team possesses deep expertise in navigating the complexities of litigation, focusing on maximizing recovery efforts through strategic legal action.</p>
-              </div>
-              
-            </div>
-          </article>
-          <article class="postcard light green" id="civillitigation">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://e0.pxfuel.com/wallpapers/978/312/desktop-wallpaper-law-firm-ceo-achieves-success.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title green"><a href="#">Civil Litigation</a></h1>
-              <div class="postcard__preview-txt">
-                <p>Our Civil Litigation division stands at the forefront of legal representation in civil matters, with a broad emphasis on navigating the complexities of higher judiciary services. This encompasses a wide range of activities from handling Civil Appeals, Review, and Revision processes in higher courts, to advocating in specialized financial litigation like Artha Rin suits. Our approach is deeply rooted in a comprehensive understanding of legal nuances and strategic court advocacy, ensuring that every case is prepared with meticulous attention to detail and a clear strategy aimed at safeguarding our clients' interests. We are dedicated to offering a robust legal framework that not only addresses the immediate needs of our clients but also anticipates the broader implications of our legal strategies. Our team's commitment extends beyond traditional litigation to include a proactive approach in higher judicial forums, where we leverage our expertise to influence outcomes and set favorable legal precedents. By integrating our knowledge of civil law with a dynamic approach to legal representation, we provide our clients with a distinct advantage in both resolving current disputes and shaping the future landscape of civil litigation. We handle diverse cases, including contract disputes, tort claims, property conflicts, and employment disputes, ensuring comprehensive support for our clients. Whether it involves pursuing or defending against claims, addressing issues in the workplace, or seeking remedies through negotiation, mediation, or litigation, our goal is to safeguard our clients' rights and achieve favorable outcomes. We pride ourselves on our commitment to excellence in civil litigation, working diligently to protect the interests of those we serve.</p>
-              </div>
-            </div>
-          </article>
-          <article class="postcard light yellow" id="criminallitigation">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://mcdn.wallpapersafari.com/medium/30/53/YobEq7.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title yellow"><a href="#">Criminal Litigation</a></h1>
-              
-              <div class="postcard__preview-txt"><p>
-                In our Criminal Litigation division, our approach is meticulously designed to provide robust legal representation and advocacy for individuals entangled in criminal matters, with a distinct emphasis on higher judiciary services including Criminal Appeals and Revisions in Higher Courts. Our seasoned team, proficient in criminal law, dedicates itself to formulating strategic defense strategies that safeguard our clients' rights across various criminal charges, from white-collar crimes to assault and theft. Our commitment extends beyond mere representation; we aim to secure the best possible outcomes for our clients, ensuring justice and fair treatment at every step of the legal journey. Integral to our criminal litigation practice is our specialized expertise in the Negotiable Instruments Law, particularly in handling cases under the NI Act, including suits related to cheques and other financial instruments. This specialization allows us to offer a comprehensive suite of services tailored to the complex legal needs associated with negotiable instruments. Our dedicated team excels in the creation, interpretation, and enforcement of these instruments, ensuring compliance with relevant statutes and safeguarding the legality and validity of our clients' financial transactions. Our firm's proficiency in navigating the intricacies of negotiable instruments encompasses advising on compliance, drafting clear and legally sound negotiable instrument agreements, and representing clients in disputes arising from such instruments. By integrating our deep understanding of criminal litigation with our specialized knowledge in Negotiable Instruments Law, we deliver unparalleled legal solutions that protect our clients' interests, minimize risks, and uphold the principles of justice and fairness in both the criminal and financial legal landscapes
-              </p></div>
-              
-            </div>
-          </article>
-
-
-
-          <article class="postcard light blue" id="corporateandcommercial">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://pix4free.org/assets/library/2021-01-21/originals/commercial_law.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title blue"><a href="#">Corporate and Commercial</a></h1>
-              <hr>
-              <div class="postcard__preview-txt">
-                <p>In our Corporate and Commercial division, we deliver a comprehensive suite of services crafted to support the evolving needs of businesses across various stages, from inception through to ongoing operations. Our team offers unparalleled legal expertise in a wide array of business matters, ensuring that every aspect of corporate and commercial law is covered with meticulous attention to detail and a strategic approach. Our services include business formation, contract negotiation and drafting, mergers and acquisitions, regulatory compliance, and intellectual property protection, as well as providing general corporate counsel. We are committed to crafting tailored legal solutions that not only align with our clients' strategic objectives but also ensure legal clarity, mitigate risks, and facilitate seamless business transactions. Expanding on our core offerings, we provide Corporate advisory services, offering strategic guidance to navigate the complex corporate landscape. Our Corporate compliance and Corporate secretarial services ensure that businesses adhere to legal and regulatory requirements, maintaining good standing in their respective industries. We offer specialized services at the Registrar of Joint Stock Companies & Firms (RJSC), assisting with Incorporation of companies & firms, obtaining search reports, registration of mortgages/charges, and obtaining certified copies of various corporate documents, essential for legal verification and compliance. Moreover, our expertise extends to Commercial transactions, facilitating deals and agreements across a broad spectrum of sectors. We provide specialized legal support in Telecommunications and broadcasting, Employment, Energy and infrastructure, Insurance, Intellectual property, Private equity and investment, and more, ensuring that our clients are well-equipped to tackle challenges and capitalize on opportunities in these areas. Through this extensive range of services, our aim is to provide proactive and strategic legal support that underpins sustained business success, navigating complex regulatory landscapes and contractual disputes with a focus on achieving the best possible outcomes for our clients.</p>  
-            </div>
-            </div>
-          </article>
-          <article class="postcard light red" id="taxandvat">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://3.imimg.com/data3/GG/HB/MY-3628772/tac-250x250.jpeg" alt="Image Title" />	
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title red"><a href="#">Tax & VAT</a></h1>
-              <div class="postcard__preview-txt">
-                <p>In our Tax & VAT division, we provide comprehensive services tailored to meet the diverse needs of businesses and individuals navigating Bangladesh's complex tax landscape. Our team of tax experts offers expert guidance and strategic solutions to ensure compliance with tax laws while optimizing tax efficiency. From tax planning and advisory services to tax dispute resolution, we assist clients in navigating the intricacies of tax regulations and obligations. Our services include advising on tax implications of business transactions, structuring tax-efficient business operations, and representing clients in tax audits and appeals. Additionally, we provide assistance in VAT registration, compliance, and refund claims, helping businesses navigate VAT regulations and minimize risks of non-compliance. Our goal is to provide proactive and practical tax advice that enables our clients to manage their tax affairs effectively while maximizing their financial objectives. With our in-depth knowledge and experience in tax and VAT matters, we strive to be trusted partners in our clients' success, offering personalized solutions and expert guidance to help them achieve their tax-related goals.</p>
-              </div>
-              
-            </div>
-          </article>
-          <article class="postcard light green" id="intellectualpropertylaw">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://i0.wp.com/www.futureenergyjobsbill.com/wp-content/uploads/2018/01/intellectual-property-law.jpg?w=732&ssl=1" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title green"><a href="#">Intellectual Property Law</a></h1>
-              <div class="postcard__preview-txt">
-                <p>In our Intellectual Property Law division, we provide a comprehensive suite of services to safeguard and maximize the value of creative assets. Our team specializes in the protection of trademarks, patents, copyrights, and trade secrets. We offer strategic counsel on intellectual property rights, guiding clients through the registration process and ensuring compliance with relevant laws.
-                  Our services extend to drafting and negotiating licensing agreements, addressing infringement issues, and representing clients in intellectual property litigation when necessary. Whether you are an innovator, creator, or business seeking to protect your intellectual assets, we tailor our services to meet your specific needs. At RemJuris & Justice, we are committed to fostering innovation and creativity while providing robust legal solutions to preserve and leverage intellectual property rights effectively.
-                  </p>
-              </div>
-            </div>
-          </article>
-          <article class="postcard light yellow" id="corporaterealestateandproperty">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://www.sbjlaw.com/wp-content/uploads/2017/01/commercial-real-estate-laws-300x214.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title yellow"><a href="#">Corporate Real Estate and Property</a></h1>
-              
-              <div class="postcard__preview-txt"><p>In our Corporate Real Estate and Property division, we deliver a suite of expert legal services designed to support businesses and individuals in navigating the complexities of real estate transactions. Our dedicated team provides strategic counsel and transactional support across a wide range of areas, including acquisitions, leasing, development, and financing, ensuring legal clarity and safeguarding our clients' interests. Key services include the Vetting of property documents to ensure due diligence, managing Development projects and Leases to maximize client benefits, and facilitating Joint ventures and Property restructuring for strategic alignment with business objectives. We handle Mortgages and powers to secure financing arrangements, offer Services at Land Registry Offices including record searches in District Record Room, AC (Land) Office, Land/Tahsil Officer, RAJUK, Ministry of Housing and Public Affairs, BSCIC etc. and obtaining Non-encumbrance Certificates, critical for verifying titles and facilitating smooth transactions. Furthermore, we assist in registering mortgages, sales, leases, and contracts, and conduct mutation formalities for legal ownership transfer. Our land surveying services, performed by engaged surveyors, are essential for accurately determining property boundaries and values. Through these comprehensive services, our aim is to streamline real estate transactions, ensuring efficiency and legal precision, thereby fostering the growth and protection of our clients’ real estate interests.</p>
-            </div>
-          </article>
-
-
-          <article class="postcard light blue" id="familylaw">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://media.istockphoto.com/id/1349700398/photo/paper-cut-family-judge-gavel-and-book-family-law.jpg?s=2048x2048&w=is&k=20&c=mWTx-F_YHAOGrXxL3cnB1s8DQR3aKAU57GXYUb7G7Yg=" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title blue"><a href="#">Family Law</a></h1>
-              <hr>
-              <div class="postcard__preview-txt">
-                <p>In our Family Law division, we provide a holistic suite of specialized services tailored to meet the unique legal challenges faced by individuals and families. Our team is dedicated to offering compassionate guidance and robust representation across a wide array of family law matters. This includes expert assistance in navigating the intricacies of divorce and separation, addressing the delicate issues of child custody, visitation rights, and arranging for child and spousal support to ensure fair and sustainable outcomes. We extend our support to drafting and reviewing prenuptial and postnuptial agreements, crucial for protecting financial interests before and during marriage. Our proficiency also covers adoption procedures, offering a guiding hand through the complex legal and emotional journey of expanding a family. For those facing domestic violence, we provide urgent and sensitive legal interventions to secure their safety and rights. In addition, we specialize in resolving paternity matters, establishing clear legal relationships and responsibilities. Recognizing the diverse needs of our clients, we include services for Special Marriage registrations, accommodating those who seek to formalize unions under specific legal frameworks that respect their unique cultural or personal circumstances. Furthermore, we assist in establishing guardianship, ensuring the well-being and legal protection of minors or dependents in complex situations. Our division also offers family mediation services, aiming to resolve disputes amicably and preserve familial relationships wherever possible. By integrating family law considerations into offering Succession and Inheritance services, ensuring comprehensive legal support in matters of estate distribution and legacy preservation. we adopt a comprehensive approach that addresses the full spectrum of familial relationships and legal requirements. Our commitment is to provide empathetic, expert legal support, guiding our clients through each step of their legal journey with understanding and professionalism, ensuring their interests and those of their families are protected and respected.</p>
-            </div>
-            </div>
-          </article>
-          <article class="postcard light red" id="cyberlaw">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://indiancyberinstitute.com/wp-content/uploads/2018/08/apcl-1.jpg" alt="Image Title" />	
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title red"><a href="#">Cyber Law</a></h1>
-              <div class="postcard__preview-txt">
-                <p>Led by a dedicated team of legal professionals specializing in cyber law, our Cyber Law division provides comprehensive legal support in navigating issues related to the digital realm. With successful representations before the Competent Court, our team offers strategic counsel on data protection, online activities, cybersecurity, and entertainment-related matters. In addition to ensuring compliance with relevant laws and regulations, our team leverages its expertise to safeguard the interests of our clients in the digital age. We provide tailored solutions for protecting intellectual property rights, drafting contracts for digital content distribution, and addressing issues of online piracy, among others. Our track record of success in the Competent Court underscores our team's proficiency not only in traditional cyber law matters but also in providing legal support for creators and entertainers in the dynamic digital landscape.</p>
-              </div>
-              
-            </div>
-          </article>
-          <article class="postcard light green" id="labourlaw">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://bangladeshpost.net/webroot/uploads/featureimage/2022-05/627d2f33b813a.jpg" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title green"><a href="#">Labour Law</a></h1>
-              <div class="postcard__preview-txt">
-                <p>In our Labour Law division, we offer a comprehensive range of services to address the dynamic landscape of employment relationships. Our dedicated team specializes in providing expert guidance on matters related to employment, ensuring both employers and employees are well-informed and protected. We assist employers in crafting and implementing employment contracts, navigating complex labor regulations, and ensuring compliance with statutory requirements. For employees, our services encompass advocating for fair labor practices, addressing workplace grievances, and providing representation in employment-related disputes. Our Labour Law services extend to advising on collective bargaining agreements, employee benefits, workplace safety, and compliance with labor standards. Whether it's guiding businesses through the intricacies of labor laws or helping employees protect their rights, our commitment is to provide strategic, effective, and ethical solutions tailored to the unique needs of our clients.</p>
-              </div>
-            </div>
-          </article>
-          <article class="postcard light yellow" id="contractualdisputeslitigation">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://www.mcguintylaw.com/wp-content/uploads/2022/01/2-Contract-Dispute-%E2%80%93-Everything-You-Need-To-Know-McGuinty-Law.png" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title yellow"><a href="#">Contractual Disputes Litigation</a></h1>
-              
-              <div class="postcard__preview-txt">
-                <p>In our Contractual Disputes Litigation services, we specialize in navigating the complexities of contractual conflicts with a strategic and results-driven approach. Our dedicated team of legal experts provides comprehensive representation in matters involving breach of contracts, enforcement of contractual rights, and resolution of disputes arising from contractual relationships. We meticulously analyze contract terms, negotiate on behalf of our clients, and, when necessary, litigate in court to protect their contractual interests. From small disputes to complex commercial disagreements, our focus is on achieving favorable outcomes and upholding the integrity of contractual agreements through assertive and effective legal strategies.</p>
-              </div>
-              
-            </div>
-          </article>
-
-          <article class="postcard light blue" id="alternativedisputesresolution">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://i0.wp.com/ljrfvoice.com/wp-content/uploads/2024/02/80ed9a960497910f1e16cc907bd13bd5-1.jpg?w=736&ssl=1" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title blue"><a href="#">Alternative Dispute Resolution (ADR): </a></h1>
-              <hr>
-              <div class="postcard__preview-txt">
-                <p>
-                  In our Alternative Dispute Resolution (ADR) services, we specialize in providing efficient and effective solutions to legal conflicts outside the traditional courtroom setting. Our ADR services encompass mediation, arbitration, and other collaborative methods tailored to meet the unique needs of our clients including Corporate ADR. Whether resolving commercial disputes, employment conflicts, or family matters, we facilitate open communication and guide parties towards mutually beneficial agreements. Our ADR expertise emphasizes a quicker, cost-effective, and amicable resolution process, empowering our clients to have more control over the outcome of their disputes while avoiding the adversarial nature of litigation.
-                </p>
-            </div>
-            </div>
-          </article>
-          <article class="postcard light red" id="immigrationlaw">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://www.minhaslawyers.ca/wp-content/uploads/2021/09/Immigration-law.jpg" alt="Image Title" />	
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title red"><a href="#">Immigration Law</a></h1>
-              <div class="postcard__preview-txt">
-                <p>In our Immigration Law division, we offer a comprehensive range of services to facilitate and navigate the complexities of immigration processes. Our dedicated team provides expert assistance in visa applications, residency requirements, citizenship matters, and other immigration-related issues. Whether you are an individual seeking to relocate, a business navigating international talent acquisition, or facing immigration challenges, our services encompass strategic legal counsel, document preparation, representation in immigration proceedings, and proactive solutions to ensure a smooth and compliant immigration journey. At RemJuris & Justice, we are committed to guiding our clients through the intricate landscape of immigration law with personalized, efficient, and effective legal support.</p>
-              </div>
-              
-            </div>
-          </article>
-          <article class="postcard light green" id="cometitionlaw">
-            <a class="postcard__img_link" href="#">
-              <img class="postcard__img" src="https://www.vkeel.com/blog/wp-content/uploads/2021/07/Introduction-to-Competition-law-Indian-perspective.png" alt="Image Title" />
-            </a>
-            <div class="postcard__text t-dark">
-              <h1 class="postcard__title green"><a href="#">Competition Law</a></h1>
-              <div class="postcard__preview-txt">
-                <p>At RemJuris & Justice, our Competition Law services are designed to empower businesses by ensuring compliance, fair competition, and legal strategies that promote market integrity. We provide expert counsel on antitrust regulations, mergers and acquisitions, and competition-related disputes. Our dedicated team navigates clients through complex competition law matters, offering strategic advice, regulatory compliance reviews, and representation in competition investigations or litigation. Whether it's merger clearances, cartel investigations, or compliance training, our services are tailored to safeguard our clients' interests in the competitive marketplace. RemJuris & Justice is your ally in navigating the intricate landscape of competition law, providing the legal support necessary for thriving in a dynamic business environment.</p>
-              </div>
-            </div>
-          </article>
-
-        </div>
-      </section>
       
       
         
     <!-- Contact Secion Start -->
 <!-- Home page Body Title -->
-<div style="padding: 0.1% ; background-color:  rgba(194, 203, 211, 0.692);text-align: center;">
+<section class="light">
+  <div class="container py-2">
+    <div class="h1 text-center text-dark" id="pageHeaderTitle">Our Area of Expertise</div>
 
-</div>
+    <article class="postcard light blue" id="constitutionalmatters">
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="https://cdn.ittefaqbd.com/contents/cache/images/1100x618x1/uploads/media/2021/11/04/b9de7ec1dd8b3c96ffe7469eb2c0d69a-61834d83a7bde.jpg?jadewits_media_id=1719" alt="Image Title" />
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 class="postcard__title blue"><a href="#">Constitutional Matters</a></h1>
+        <hr>
+        <div class="postcard__preview-txt">
+          <p class="short-text">Our firm specializes in providing comprehensive legal support for Constitutional Matters including Writ and Public Interest Litigation (PIL) matters in Bangladesh...</p>
+          <p class="full-text" style="display: none;">Our firm specializes in providing comprehensive legal support for Constitutional Matters including Writ and Public Interest Litigation (PIL) matters in Bangladesh. In the realm of Writ services, we assist clients in seeking recourse from higher courts, such as the High Court Division of the Supreme Court of Bangladesh, through Writ petitions. These petitions are powerful legal instruments used to protect fundamental rights, challenge government actions, or seek remedies for constitutional violations. Our experienced team navigates the intricacies of Writ procedures, ensuring diligent preparation, persuasive arguments, and effective representation before the judiciary. Additionally, our PIL services are geared towards advocating for the public interest and promoting social justice through litigation. We represent individuals, organizations, and groups seeking to address systemic issues, enforce statutory duties, or challenge governmental policies or actions affecting the public at large. Our PIL practice encompasses a wide range of issues, including environmental protection, human rights, access to justice, and governmental accountability. We leverage our legal expertise and commitment to social justice to advance causes that benefit society as a whole. Whether it involves championing individual rights through Writ petitions or advocating for broader societal concerns through PIL, our firm is dedicated to upholding the principles of justice, fairness, and the rule of law in Bangladesh.</p>
+          <a href="#" class="read-more" onclick="toggleText(event, 'constitutionalmatters')">Continue Reading</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="postcard light red" id="bankingfinalcialservice">
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="https://legalcounselbd.com/wp-content/uploads/2020/12/Banking-Law-1.jpg" alt="Image Title" />
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 class="postcard__title red"><a href="#">Banking & Financial Services</a></h1>
+        <div class="postcard__preview-txt">
+          <p class="short-text">Our Banking & Financial Services division is well-versed in a wide array of security documentations and financial services to support our clients' diverse needs...</p>
+          <p class="full-text" style="display: none;">Our Banking & Financial Services division is well-versed in a wide array of security documentations and financial services to support our clients' diverse needs. This includes creating Deeds of Mortgage and Power of Attorney, drafting Letters of Hypothecation on fixed and floating Assets, and preparing Deeds of Corporate Guarantee. We also specialize in arranging Pari Passu Security Sharing Agreements, Letters of Pledge and Negative Pledge, as well as establishing Deeds of Tripartite and Quadripartite Agreements. Additionally, our services encompass the preparation of Letters of Lien and Deeds of Assignment among others. In the realm of financing, we offer comprehensive solutions in asset financing, syndicated lending, and bank lending, tailored to meet the specific needs of our clients. Our team is also adept at managing debt restructuring processes, facilitating project finance, and designing structured finance products. Through these services, we ensure our clients have access to the necessary tools and expertise to navigate their financial journeys successfully. Simultaneously, in Litigation and Recovery Matters, where we specialize in representing our clients before courts for recovery-related proceedings. Our legal team possesses deep expertise in navigating the complexities of litigation, focusing on maximizing recovery efforts through strategic legal action.</p>
+          <a href="#" class="read-more" onclick="toggleText(event, 'bankingfinalcialservice')">Continue Reading</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="postcard light green" id="civillitigation">
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="https://e0.pxfuel.com/wallpapers/978/312/desktop-wallpaper-law-firm-ceo-achieves-success.jpg" alt="Image Title" />
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 class="postcard__title green"><a href="#">Civil Litigation</a></h1>
+        <div class="postcard__preview-txt">
+          <p class="short-text">Our Civil Litigation division stands at the forefront of legal representation in civil matters, with a broad emphasis on navigating the complexities of higher judiciary services...</p>
+          <p class="full-text" style="display: none;">Our Civil Litigation division stands at the forefront of legal representation in civil matters, with a broad emphasis on navigating the complexities of higher judiciary services. This encompasses a wide range of activities from handling Civil Appeals, Review, and Revision processes in higher courts, to advocating in specialized financial litigation like Artha Rin suits. Our approach is deeply rooted in a comprehensive understanding of legal nuances and strategic court advocacy, ensuring that every case is prepared with meticulous attention to detail and a clear strategy aimed at safeguarding our clients' interests. We are dedicated to offering a robust legal framework that not only addresses the immediate needs of our clients but also anticipates the broader implications of our legal strategies. Our team's commitment extends beyond traditional litigation to include a proactive approach in higher judicial forums, where we leverage our expertise to influence outcomes and set favorable legal precedents. By integrating our knowledge of civil law with a dynamic approach to legal representation, we provide our clients with a distinct advantage in both resolving current disputes and shaping the future landscape of civil litigation. We handle diverse cases, including contract disputes, tort claims, property conflicts, and employment disputes, ensuring comprehensive support for our clients. Whether it involves pursuing or defending against claims, addressing issues in the workplace, or seeking remedies through negotiation, mediation, or litigation, our goal is to safeguard our clients' rights and achieve favorable outcomes. We pride ourselves on our commitment to excellence in civil litigation, working diligently to protect the interests of those we serve.</p>
+          <a href="#" class="read-more" onclick="toggleText(event, 'civillitigation')">Continue Reading</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="postcard light yellow" id="criminallitigation">
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="https://mcdn.wallpapersafari.com/medium/30/53/YobEq7.jpg" alt="Image Title" />
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 class="postcard__title yellow"><a href="#">Criminal Litigation</a></h1>
+        <div class="postcard__preview-txt">
+          <p class="short-text">In our Criminal Litigation division, our approach is meticulously designed to provide robust legal representation and advocacy for individuals entangled in criminal matters...</p>
+          <p class="full-text" style="display: none;">In our Criminal Litigation division, our approach is meticulously designed to provide robust legal representation and advocacy for individuals entangled in criminal matters, with a distinct emphasis on higher judiciary services including Criminal Appeals and Revisions in Higher Courts. Our seasoned team, proficient in criminal law, dedicates itself to formulating strategic defense strategies that safeguard our clients' rights across various criminal charges, from white-collar crimes to assault and theft. Our commitment extends beyond mere representation; we aim to secure the best possible outcomes for our clients, ensuring justice and fair treatment at every step of the legal journey. Integral to our criminal litigation practice is our specialized expertise in the Negotiable Instruments Law, particularly in handling cases under the NI Act of 1881, focusing on Cheque Dishonour and related issues. We navigate the intricacies of criminal procedures, providing steadfast support and rigorous advocacy to achieve favorable resolutions. Our comprehensive services cover pre-trial advice, bail applications, plea negotiations, trial representation, and post-conviction remedies, ensuring our clients receive unparalleled legal support throughout the criminal justice process. By integrating our profound legal knowledge with a client-centric approach, we strive to alleviate the burden of criminal litigation for our clients, working diligently to protect their rights and secure justice. With a deep commitment to legal excellence and ethical advocacy, we stand as a trusted ally for individuals facing the challenges of criminal litigation, dedicated to upholding the principles of justice and integrity in every case we handle.</p>
+          <a href="#" class="read-more" onclick="toggleText(event, 'criminallitigation')">Continue Reading</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="postcard light green" id="corporateandcommercial">
+      <a class="postcard__img_link" href="#">
+        <img class="postcard__img" src="./img/corporateandcomertial.webp" alt="Image Title" />
+      </a>
+      <div class="postcard__text t-dark">
+        <h1 class="postcard__title blue"><a href="#">Corporate and Commercial</a></h1>
+        <hr>
+        <div class="postcard__preview-txt">
+          <p class="short-text">In our Corporate and Commercial division, we deliver a comprehensive suite of services crafted to support the business needs of our clients across various industries...</p>
+          <p class="full-text" style="display: none;">In our Corporate and Commercial division, we deliver a comprehensive suite of services crafted to support the business needs of our clients across various industries. Our expertise spans company formation and structuring, mergers and acquisitions, joint ventures, and corporate governance. We provide strategic advice and legal solutions to ensure regulatory compliance and facilitate smooth business operations. Our team is adept at drafting and negotiating commercial contracts, managing corporate disputes, and advising on intellectual property matters. We are committed to fostering long-term relationships with our clients by delivering high-quality legal support tailored to their unique business objectives. Whether navigating complex transactions or addressing day-to-day legal issues, our goal is to empower our clients with the knowledge and resources they need to thrive in a competitive market.</p>
+          <a href="#" class="read-more" onclick="toggleText(event, 'corporateandcommercial')">Continue Reading</a>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+
+
     <div class="d2c_contact" id="contact">
       <div class="container">
           <div class="row align-items-center">
@@ -969,6 +899,26 @@
   <!-- Fancy-Box jquery Cdn Start -->
   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  
   <!-- Fancy-Box jquery Cdn End -->
+   <script>
+    function toggleText(event, id) {
+  event.preventDefault();
+  const article = document.getElementById(id);
+  const shortText = article.querySelector('.short-text');
+  const fullText = article.querySelector('.full-text');
+  const readMoreLink = article.querySelector('.read-more');
+
+  if (fullText.style.display === 'none') {
+    fullText.style.display = 'block';
+    shortText.style.display = 'none';
+    readMoreLink.textContent = 'Show Less';
+  } else {
+    fullText.style.display = 'none';
+    shortText.style.display = 'block';
+    readMoreLink.textContent = 'Continue Reading';
+  }
+}
+   </script>
 </body>
 </html>
